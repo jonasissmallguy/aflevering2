@@ -1,0 +1,169 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    overflow-x: hidden; 
+}
+
+.full-page-div {
+    height: 100vw; 
+    width: 100vw;  
+    background-color: pink;
+    font-size: 32px;
+    text-align: center;
+    position: relative;
+}
+
+.below-div {
+    height: 20vw; 
+    width: 100vw;
+    background-color: #193931;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    position: relative; 
+}
+
+.below-div h2 {
+    color: white;
+    margin: 0;
+    margin-top: 60px;
+    font-size: 75px;
+    text-align: center; 
+}
+
+
+
+.below-on-div  {
+    height: 80vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; 
+}
+
+#firstbold {
+    margin-top: 0px;
+    font-size: 28px;
+}
+
+em {
+    font-size: 25px;
+}
+
+.no-link-style {
+    text-decoration: none;
+    color: whitesmoke; 
+  }
+
+  .link-style {
+    color: white;
+    background-color:rgba(180, 178, 178, 0.719);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+
+
+article{
+    align-items: center;
+}
+
+
+i {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+li {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+ul {
+    padding-left:0;
+}
+
+/*Nedenstående, hvordan vi aligner bullets */
+
+ul li {
+    list-style-position: inside;
+}
+
+h1 {
+    color: darkblue;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 20px ;
+}
+
+a {
+    color: blue;
+}
+
+.below-div-p {
+    color: white;
+    font-size: 20px;
+}
+
+/*Her starter side 2 */
+
+.main-musik-div {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    font-size: x-large;
+}
+ 
+.main-musik-div h1 {
+    text-align: center;
+    color: #333;
+}
+
+.main-musik-div h2 {
+    color: #333;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Header Styling */
+th {
+    background-color: darkblue;
+    color: white;
+    padding: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+/* Data Cell Styling */
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Hover Effect for Rows */
+tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.2s ease;
+}
+
+/* Table Borders */
+table, th, td {
+    border: 1px solid #ddd;
+}
